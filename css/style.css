@@ -15,9 +15,15 @@ a {
     text-decoration: none;
 }
 
+.center {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    /* outline: 1px solid #fff; */
+}
+
 .top-header {
-    padding: 40px 0 0 0;
-    margin: 0 0 84px 0;
+    padding: 40px 0 84px 0;
     display: flex;
     justify-content: center;
 }
@@ -48,12 +54,20 @@ a {
     line-height: 16px;
 }
 
+.menu-list-item a:hover {
+    color: #F25822; 
+}
+
+.top-menu-home a:hover {
+    color: #000000;
+}
+
 /* .menu-button {
     margin: 40px 0 0 0;
 } */
 
 .top-promo {
-    margin: 0 0 103px 0;
+    padding: 0 0 103px 0;
     display: flex;
     gap: 39px;
     flex-direction: row;
@@ -100,12 +114,23 @@ a {
     max-width: 140px;    
 }
 
+.start:hover {
+    color: #F25822;
+    background: #FFFFFF;
+}
+
 .video {
     display: block;
     border: none;
     color: #AAAAAA;
     background: #FFFFFF;
     padding: 15px 36px 16px 35px;
+    border-radius: 50px;
+}
+
+.video:hover {
+    color: #FFFFFF;
+    background: #AAAAAA;
 }
 
 .top-img {
@@ -129,4 +154,203 @@ a {
 
 .top-logo {
     padding: 97px 0;
+}
+
+/* advantadges */
+
+.advantages {
+
+}
+
+.advantages-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin: 100px;
+}
+
+.advantages-item {
+    min-width: 226px;
+    width: 100%;
+    padding: 29px 0 0 0;
+}
+
+.advantages-item-big {
+    min-width: 291px;
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06); 
+    padding: 29px;
+    box-sizing: border-box;
+}
+
+.advantages-item-photo {
+    width: 70px;
+    height: 70px;
+    background-image: url('../img/advantages-photo1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.advantages-item-photo-2 {
+    width: 70px;
+    height: 70px;
+    background-image: url('../img/advantages-photo2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.advantages-item-photo-3 {
+    width: 70px;
+    height: 70px;
+    background-image: url('../img/advantages-photo3.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.advantages-item-title {
+    height: 30px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    padding: 0 0 17px 0;
+    padding: 25px 0 0 0
+}
+
+.advantages-item-text {
+    width: 310px;
+    height: 42px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    padding: 17px 0 25px 0;
+}
+
+.advantages-item-button {
+    display: block;
+    border: none;
+    background: none;
+    font-weight: 700;
+}
+
+
+
+.choose-us {
+    background-color: #FAFAFA;
+    padding: 92px 0 100px 0;
+}
+
+.choose-us-info {
+    width: 682px;
+    height: 123px;
+    padding: 0 0 55px 0;
+}
+
+.choose-us-title-first {
+    padding: 0 619px 0 619px;
+    width: 579px;
+    height: 56px;
+    font-size: 45px;
+    line-height: 53px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 0 19px 0;
+    
+}
+
+.choose-us-txt-first {
+    margin: 19px 619px 0 619px;
+    width: 682px;
+    height: 48px;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #666666;
+}
+
+.choose-us-container {
+    background-color: #FFFFFF;
+    background-size: cover;
+    width: 370px;
+    height: 549px;
+}
+
+.container-with-shadow {
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1)
+}
+
+.choose-us-title {
+    margin: 0 83px 22px 83px;
+    text-align: center;
+    width: 204px;
+    height: 30px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.choose-us-txt {
+    width: 310px;
+    height: 63px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 150%;
+    text-align: center;
+    margin: 0 30px 54px 30px;
+    color: #AAAAAA;
+}
+
+.choose-us-btm-txt {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.choose-us-btm {
+    width: 150px;
+    height: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    border-radius: 50px;   
+    margin: 0 120px 50px 100px;
+    border: none;
+}
+
+.choose-us-btm:hover {
+    color: #F25822;
+    background: #FFFFFF;
+}
+
+.choose-us-list {
+    list-style: none;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.choose-us-img {
+    height: 50%;
+    width: 370;
+    max-width: 100%;
+}
+
+.choose-us-item1 {
+    background-image: url('../img/choose-us1.png');
+}
+
+.choose-us-item2 {
+    background-image: url('../img/choose-us2.png');
+}
+
+.choose-us-item3 {
+    background-image: url('../img/choose-us3.png');
 }
